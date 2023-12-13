@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Serif+Display&family=Ephesis&family=Kanit:wght@300&family=PT+Sans+Narrow&family=Permanent+Marker&family=Roboto:ital@1&family=Whisper&display=swap');
+.header{
+    background-color: rgb(229, 216, 216);
+    color: rgb(5, 5, 5);
+    justify-content: space-evenly;
+
+}
+a{
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-left: 17px;
+    margin-bottom: 10px;
+    color: rgb(15, 14, 14);
+}
+.hh{
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    color: red;
+    font-size: 20px;
+
+}
+.container{
+    position: relative;
+  width: 100%;
+}
+
+ .p1 {
+    width: 50%;
+     height: auto; 
+  } 
+  .btn{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:white;
+  color: rgb(12, 10, 10);
+  font-size: 26px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  }
+  .centered{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: rgb(206, 201, 195);
+  }
+ .p1{
+    width: 100%;
+} 
+.row{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    color: rgb(13, 12, 12);
+}
+@media(max-width:600px){
+    .header{
+        width:100%;
+    }
+    .hh{
+        width: 100%;
+    }
+    /* .p1{
+        width: 100%;
+    } */
+    .btn{
+        font-size:8px;
+    }
+    .centered{
+        font-size: 10px;
+        top: 39%;
+    }
+}
